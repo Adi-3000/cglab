@@ -50,10 +50,9 @@ void myInit()
 }
 void rotateMenu(int option)
 {
-    if (option == 1)
-        rFlag = 1; if (option == 2)
-        rFlag = 2; if (option == 3)
-        rFlag = 3;
+    if (option == 1) rFlag = 1;
+    if (option == 2) rFlag = 2;
+    if (option == 3) rFlag = 3;
 }
 void main(int argc, char** argv)
 {
